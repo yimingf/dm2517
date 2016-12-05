@@ -1,0 +1,20 @@
+<!ELEMENT page (pokemon*, user)>
+<!ELEMENT pokemon (id, class, type, height, weight, description, sex_ratio, skill*, speciality, hidden_speciality?, before_evolution?, after_evolution?, how_to_capture)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT sex_ratio (#PCDATA)>
+<!ELEMENT skill (#PCDATA)>
+<!ELEMENT speciality (#PCDATA)>
+<!ELEMENT hidden_speciality (#PCDATA)>
+<!ELEMENT before_evolution (#PCDATA)>
+<!ELEMENT after_evolution (#PCDATA)>
+<!ELEMENT how_to_capture (#PCDATA)>
+
+<!ELEMENT user (id, name, priority, sns_link?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT priority (#PCDATA)>
+<!ELEMENT sns_link (#PCDATA)>

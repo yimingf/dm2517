@@ -1,0 +1,63 @@
+MAINTITLE {
+  display: 		block;
+  font-size: 	78px;
+}
+
+PERSONAE {
+  margin-top:	120px;
+  display:block;
+}
+
+PERSONAE > TITLE {
+  display:block;
+  text-transform: uppercase;
+}
+
+PERSONA {
+  display:block;
+}
+
+SCNDESCR {
+  display:block;
+}
+
+PLAYSUBT {
+	margin-top:	20px;
+  display:		block;
+  font-size: 	42px;
+  margin-bottom:	20px;
+}
+
+ACT > TITLE {
+  display:block;
+  text-transform: uppercase;
+  text-align: 		center;
+}
+
+SCENE > TITLE {
+  display:				block;
+  text-transform: uppercase;
+  text-align: 		center;
+  width: 					250px;
+}
+
+STAGEDIR {
+	margin-top:	8px;
+  display:		block;
+  font-style: italic;
+  margin-bottom:	8px;
+}
+
+SCENE {
+  counter-reset: section;
+}
+
+LINE {
+  display:block;
+  text-indent: 10px;
+}
+
+LINE:after {
+	counter-increment: section;
+	content: " " counter(section);
+}
